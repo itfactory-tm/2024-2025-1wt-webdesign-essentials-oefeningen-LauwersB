@@ -10,7 +10,7 @@ These are the starting files for **Webdesign Essentials** for 1WT of the Thomas 
 
 | Student                | Info    |
 |------------------------|---------|
-| Name                   | Björn   |
+| Name                   | Björn R |
 | Surname                | Lauwers |
 | Class                  | 1WT     |
 
