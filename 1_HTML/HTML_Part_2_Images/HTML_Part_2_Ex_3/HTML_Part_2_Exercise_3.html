@@ -4,22 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Scalable Vector Graphics</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Scalable Vector Graphics</h1>
+<div id="outline">
+    <header>
+        <h1 style="display: flex; align-items: center;">
+            <svg width=60px height=40px>
+                <!-- Teken een lijn van links naar rechts -->
+                <line x1="10" y1="20" x2="20" y2="20" stroke="#e0c01d" stroke-width="10"/>
+                <line x1="20" y1="20" x2="30" y2="20" stroke="lightblue" stroke-width="10"/>
+                <!-- Teken een driehoek aan het einde om de pijlspits te maken -->
+                <polygon points="40,20 30,10 30,30" fill="lightblue"/>
+            </svg>
+            Scalable Vector Graphics
+        </h1>
+    </header>
 
-    <p>With very simple shapes you can code your own images.</p>
+    <article><p>With very simple shapes you can code your own images.</p>
 
-    <h2>Scrabble</h2>
+        <h2>Scrabble</h2>
+        <svg width=40px height=40px>
+            <rect x="0" y="0" width="40" height="40" fill="#e0c01d"/>
+            <rect x="5" y="5" width="30" height="10" fill="#254250"/>
+            <rect x="15" y="5" width="10" height="30" fill="#254250"/>
+        </svg>
+        <h2>Sunrise</h2>
+        <svg width=60px height=40px>
+            <rect x="0" y="0" width="60" height="40" fill="lightblue"/>
+            <path d="M 0 40 A 20 20 0 0 1 60 40" fill="yellow" stroke="yellow" stroke-width="2"/>
+        </svg>
+        <h2>Shorts</h2>
+        <svg width=40px height=40px>
+            <rect x="0" y="0" width="40" height="10" fill="#e0c01d"/>
+            <rect x="0" y="10" width="40" height="30" fill="darkblue"/>
+            <path d="M 0 40 L 0 25 A 15 15 0 0 1 15 40 Z" fill="white" stroke="white" stroke-width="2"/>
+            <path d="M 40 40 L 25 40 A 15 15 0 0 1 40 25 Z" fill="white" stroke="white" stroke-width="2"/>
+        </svg>
+    </article>
+    <footer>
+        <p>Don't feel like coding much? You might find images on sites with royalty free photos.
+        </p>
+        <img src="pexels-photo-6732760.jpg" alt="the end" width="600" height="400">
+    </footer>
 
-    <h2>Sunrise</h2>
-
-    <h2>Shorts</h2>
-
-    <p>Don't feel like coding much? You might find images on sites with royalty free photos.</p>
-
+</div>
 </body>
 
 </html>
