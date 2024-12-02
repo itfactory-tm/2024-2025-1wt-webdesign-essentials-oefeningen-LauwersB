@@ -18,3 +18,7 @@ th {
     background-color: #666;
     color: #fff;
 }
+.Closed {
+    background-color: orangered;
+    color: #000;
+}
