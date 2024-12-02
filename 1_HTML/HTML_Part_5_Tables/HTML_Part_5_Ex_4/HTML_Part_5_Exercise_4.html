@@ -9,7 +9,53 @@
 </head>
 
 <body>
-    <h1>Traffic signs</h1>
+<h1>Traffic signs</h1>
+<table>
+    <tr>
+        <th>Traffic sign</th>
+        <td><svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+            <!-- Het rode ronde bord -->
+            <circle cx="100" cy="100" r="80" fill="red" />
+
+            <!-- De witte horizontale streep -->
+            <rect x="30" y="90" width="140" height="20" fill="white" />
+        </svg></td>
+        <td><svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+            <!-- Het blauwe ronde bord -->
+            <circle cx="100" cy="100" r="80" fill="blue" />
+
+            <!-- De rechte lijn van de pijl -->
+            <line x1="40" y1="100" x2="120" y2="100" stroke="white" stroke-width="20"/>
+
+            <!-- De punt van de pijl -->
+            <polygon points="120,70 120,130 170,100" fill="white" />
+        </svg></td>
+        <td><svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+            <!-- De rode rand -->
+            <circle cx="100" cy="100" r="70" fill="none" stroke="red" stroke-width="20"/>
+
+            <!-- De witte binnenkant van het bord -->
+            <circle cx="100" cy="100" r="60" fill="white" />
+        </svg></td>
+        <td><svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+            <!-- Het driehoekige bord met een rode rand en witte binnenkant -->
+            <polygon points="100,30 170,170 30,170" fill="white" stroke="red" stroke-width="10"/>
+        </svg></td>
+    </tr>
+    <tr>
+        <th>explanation</th>
+        <td>No entry</td>
+        <td>Turn right</td>
+        <td>No entry</td>
+        <td>Danger</td>
+
+
+    </tr>
+
+
+
+
+</table>
 
 
 </body>
